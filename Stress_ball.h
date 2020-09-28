@@ -43,6 +43,7 @@ std::ostream& operator<<(std::ostream& os, const Stress_ball& sb){
     else if (sb.color == Stress_ball_colors::green){
         os<< "(green,  ";
     }
+//Adding this comment
 
     if(sb.size == Stress_ball_sizes::small){
         os<< "small)\n";
